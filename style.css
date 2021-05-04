@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -28,9 +29,10 @@ body{
 }
 
 .menu-header{
-    width: 260px;
+    width: 280px;
     list-style: none;
     float: right;
+    
 
 }
 
@@ -214,7 +216,7 @@ h2{
     background-color: grey;
     padding: 25px;
     margin-bottom: 10px;
-    box-shadow: 2px 4px 8px rgb(53, 52, 52);
+    box-shadow: 2px 4px 8px rgb(83, 58, 58);
   
 }
 
@@ -230,7 +232,8 @@ input,textarea{
     padding: 5px;
     margin-bottom: 5px;
     font-size: 12pt;
-    resize: none /* para o ext area não ser editavel no tamanho*/
+    resize: none;/* para o ext area não ser editavel no tamanho*/
+    border-radius: 5px;
 
 }
 
@@ -247,8 +250,10 @@ button{
 }
 
 button:hover{
-    background-color:rgb(110, 110, 155);
     color: white;
+    transition: 1s ease;
+    background-color: rgb(123, 121, 230);
+    
 
 }
 
@@ -266,7 +271,7 @@ button:hover{
     grid-gap: 10px;
     grid-template-columns: 242.25px 242.25px 242.25px 242.25px;
     width: 1000px;
-    margin: 200px auto;
+    margin: 60px auto;
     background-color: brown;
     text-align: center;
     
@@ -321,7 +326,11 @@ button:hover{
     background-size: 100% 100%;
 }
 
-.japao{
+.h1-fotos{
+    margin-left: 60px;
+    margin-top: 90px;
+    color: white;
+    
     
 }
 
