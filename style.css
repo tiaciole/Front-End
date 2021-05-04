@@ -40,14 +40,16 @@ body{
     display: inline-block;
     margin-right: 15px;
     padding: 10px;
+    border-radius: 5px;
     
     
    
 }
 
 .menu-header li:hover{
+    transition: 1s ease;
     background-color: rgb(123, 121, 230);
-
+   
 }
 
 a{
