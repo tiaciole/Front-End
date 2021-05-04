@@ -12,6 +12,10 @@ header{
     box-sizing: border-box;    
 }
 
+body{
+    background: url("./imagens/fundo.jpg");
+}
+
 
 
 .logo{
@@ -27,12 +31,17 @@ header{
     width: 260px;
     list-style: none;
     float: right;
+
 }
+
+
 
 .menu-header li{
     display: inline-block;
     margin-right: 15px;
     padding: 10px;
+    
+    
    
 }
 
@@ -43,7 +52,7 @@ header{
 
 a{
   text-decoration: none; 
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -142,7 +151,7 @@ height: 425px;
     margin: auto;
     margin-top: 10px;
     overflow: auto;
-    background-color: white;
+    background: url("./imagens/fundo.jpg");
     
 }
 
@@ -192,6 +201,7 @@ h2{
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+    color: white;
     
 }
 
@@ -243,6 +253,7 @@ button:hover{
     background-color:rgb(128, 128, 248) ;
     text-align: center;
     padding: 5px;
+    font-weight: bold;
 }
 
 
